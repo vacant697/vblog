@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+    <link rel='stylesheet' href='/stylesheets/base.css'/>
+    <link rel='stylesheet' href='/stylesheets/common.css'/>
+    <link rel='stylesheet' href='/stylesheets/layout.css'/>
+</head>
+<body>
+<header id='header'>
+    <div class="fn-clear">
+        <a href="/">
+            <img src="/images/logo.png" alt="空V" id="logo" class="fn-left"/>
+        </a>
+
+        <h1 class="fn-left" id="title">
+            空灵的前端日记<br/>
+            <span class="sub-title">因为前端，所以快乐！</span>
+        </h1>
+    </div>
+</header>
+<nav id="nav">
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ARTICLE</a></li>
+        <li><a href="#">ABOUT</a></li>
+    </ul>
+
+</nav>
+</body>
 </html>
